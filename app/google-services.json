@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "885640501404",
+    "project_id": "quizgame-25c39",
+    "storage_bucket": "quizgame-25c39.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885640501404:android:1c7c9fc3be4495ec043559",
+        "android_client_info": {
+          "package_name": "com.example.quizgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBYyI4LY0aVwCKN_qLfwK13M0K-V2BNL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

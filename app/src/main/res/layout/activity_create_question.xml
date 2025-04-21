@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:spacing="10dp">
+
+        <!-- Question Input -->
+        <EditText
+            android:id="@+id/editTextQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Question"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <!-- Options Input -->
+        <EditText
+            android:id="@+id/editTextOptionA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option A"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextOptionB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option B"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextOptionC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option C"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextOptionD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option D"
+            android:padding="12dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Correct Option:"
+            android:layout_marginTop="16dp"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupCorrectAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radioA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:padding="14dp"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:padding="14dp"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:padding="14dp"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:padding="14dp"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonSubmitQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Question"
+            android:layout_marginTop="20dp"
+            android:padding="14dp"
+            android:textSize="16sp" />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="start"/>
+    </LinearLayout>
+</ScrollView>
