@@ -30,8 +30,12 @@ QuizGame is a Kotlin-based Android application that allows users to take quizzes
 ---
 
 ## 🖼️ Screenshots
+![WhatsApp Image 2025-04-21 at 21 17 02_a780a277](https://github.com/user-attachments/assets/6d91d6ee-9ea1-4e77-8fe4-911a3a0e5e6a)
 
-> Add screenshots here (optional)
+>  
+![WhatsApp Image 2025-04-21 at 21 17 01_72568ae0](https://github.com/user-attachments/assets/39955010-e300-4fd8-ac24-38ab03d64b38)
+> 
+![WhatsApp Image 2025-04-21 at 21 17 01_1bd04bb7](https://github.com/user-attachments/assets/af842428-60e0-4337-8e44-b2e367a53d38)
 
 ---
 
