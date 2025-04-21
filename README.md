@@ -25,7 +25,7 @@ QuizGame is a Kotlin-based Android application that allows users to take quizzes
 
 ## 🖼️ Screenshots
 
-| Quiz Screen | Answer Feedback | Add Question |
+| Login | Main Screen (create questions for admin only) | Quiz Screen |
 |-------------|------------------|----------------|
 | ![Quiz Screen](https://github.com/user-attachments/assets/6d91d6ee-9ea1-4e77-8fe4-911a3a0e5e6a) | ![Answer Feedback](https://github.com/user-attachments/assets/39955010-e300-4fd8-ac24-38ab03d64b38) | ![Add Question](https://github.com/user-attachments/assets/af842428-60e0-4337-8e44-b2e367a53d38) |
   
